@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Home</title>
+</head>
+
+<body>
+
+  
+  <!-- Menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img class="tm-logo" src="assets/img/doctor-who.svg" alt="Logo da série">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="tardis.html">TARDIS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="companions.html">Companions</a></li>
+              <li><a class="dropdown-item" href="viloes.html">Vilões</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Curiosidades</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- /Menu -->
+
+  <div class="container">
+    <div class="row mt-5 mp-5 mr-5">
+      <div class="col">
+        <h1>Sobre a Série</h1>
+        <p class="text-justify">
+          Doctor Who segue as aventuras de um renegado Senhor do Tempo do planeta Gallifrey que simplesmente atende pelo
+          nome de "Doutor". Ele fugiu de seu planeta natal em uma TARDIS (abreviação para "Time and Relative Dimensions
+          in Space" em português "Tempo e Dimensões Relativas no Espaço") Tipo 40 - o que lhe permite viajar através do
+          tempo e espaço. Devido a um mau funcionamento do "circuito camaleão" da TARDIS, que normalmente permite que a
+          TARDIS possa assumir a aparência de objetos locais para disfarçar-se, a TARDIS do Doutor permanece fixa como
+          uma cabine telefônica policial britânica. O Doutor raramente viaja sozinho e muitas vezes traz um ou mais
+          companheiros para compartilhar essas aventuras. Como um Senhor do Tempo, o Doutor tem a capacidade de se
+          regenerar quando seu corpo é mortalmente danificado, ganhando uma nova aparência e personalidade. O Doutor
+          ganhou inúmeros inimigos recorrentes durante as suas viagens, incluindo Daleks, Cybermen e outro Senhor do
+          Tempo renegado, o Mestre.
+        </p>
+      </div>
+    </div>
+    <!-- Texto e video -->
+    <div class="row mt-5 mp-5 mr-5">
+      <div class="col-md-6">
+        <h4>regeneração</h4>
+        <p>
+          Ocorre que todo o Senhor do Tempo, ao sofrer algum dano letal ou quando quer (se for treinado para tal) libera
+          um hormônio, regenerativo, que ativa o processo de regeneração das células de seu corpo por meio de um
+          procedimento que muda sua constituição física e psicológica, quase como se surgisse uma pessoa completamente
+          diferente a partir de outra, no entanto com as mesmas memórias. Durante a regeneração, o corpo de um(a)
+          Senhor(a) do Tempo pode liberar explosões de luz ofuscante branca e/ou colorida, corrente elétrica, uma
+          violenta carga de bioenergia (que destrói tudo a sua volta) ou ainda, ele pode simplesmente se transformar sem
+          liberação de energia. Caso o Senhor do Tempo seja fatalmente ferido antes da regeneração se concluir, esta
+          falhará e ele morrerá. O processo é doloroso e causa efeitos colaterais.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h4>Todas as Regenerações do Doutor</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mcggi9kXiaY" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+    <!-- /Texto e vídeo -->
+
+    <!-- Carrossel -->
+    <h2>Todos os rostos do Doutor</h2>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+          aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+          aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+          aria-label="Slide 8"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"
+          aria-label="Slide 9"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9"
+          aria-label="Slide 10"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10"
+          aria-label="Slide 11"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11"
+          aria-label="Slide 12"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/Novo Projeto.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Primeiro Doutor</h5>
+            <p class="text-dark">Primeiro Doutor</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/2a--patrick-troughton.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Segundo Doutor</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/3---jon-pertwee.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Terceiro Doutor</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/4---tom-baker.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Quarto Doutor</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/5---peter-davison.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Quinto Doutor</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/6---colin-baker.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Sexto Doutor</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/7---sylvester-mccoy.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Sétimo Doutor</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/8---paul-mcgann.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Oitavo Doutor</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/9---eccleston.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Nono Doutor</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/10-tennant.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Décimo Doutor</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/11---smith.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Décimo primeiro Doutor</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/12---capaldi.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Décimo segundo Doutor</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- /Carrossel -->
+
+    <div class="mttt">
+      
+    </div>
+    <!-- Cards -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="assets/img/Sonic-Screwdriver.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Chave de fenda Sônica</h5>
+            <p class="card-text">A chave de fenda sônica é um dos itens mais importantes do Doutor podendo fazer as mais variadas de abrir portas fechadas a hackear computadores e até fechar brechas interdimensionais</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="assets/img/Papel psiquico.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Papel psiquico</h5>
+            <p class="card-text">É um papel especial que mostra para as pessoas somente aquilo que elas querem ver sendo ótimo para identidades secretas . Também pode ser usado para enviar mensagens</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="assets/img/TARDIS1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TARDIS</h5>
+            <p class="card-text">Parece uma cabine policial por fora mas no seu interior é uma maquina do tempo que pode ir para qualquer lugar. A TARDIS possui essa forma por causa de um defeito no sistema de camufalgem</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Cards -->
+
+     <!-- Formulário -->
+  <form class="row g-3">
+    <div class="col-md-4">
+      <label for="validationServer01" class="form-label">First name</label>
+      <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationServer02" class="form-label">Last name</label>
+      <input type="text" class="form-control is-valid" id="validationServer02" value="" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationServerUsername" class="form-label">Username</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend3">@</span>
+        <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+        <div id="validationServerUsernameFeedback" class="invalid-feedback">
+          Please choose a username.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationServer03" class="form-label">City</label>
+      <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+      <div id="validationServer03Feedback" class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationServer04" class="form-label">State</label>
+      <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+        <option selected disabled value="">Choose...</option>
+        <option>...</option>
+      </select>
+      <div id="validationServer04Feedback" class="invalid-feedback">
+        Please select a valid state.
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationServer05" class="form-label">Zip</label>
+      <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+      <div id="validationServer05Feedback" class="invalid-feedback">
+        Please provide a valid zip.
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+        <label class="form-check-label" for="invalidCheck3">
+          Agree to terms and conditions
+        </label>
+        <div id="invalidCheck3Feedback" class="invalid-feedback">
+          You must agree before submitting.
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+  </form>
+    <!--/ Formulário -->
+    
+    <!-- Fim do container -->
+  </div>
+ 
+
+  <!-- Rodapé -->
+  <hr>
+  <footer>
+    <div class="row mb-3">
+      <div class="col-md-12 d-flex justify-content-center">
+
+        <a href="https://pt-br.facebook.com/" target="blank" class="p-3">
+          <img class="tm-social " src="assets/img/facebook.png" alt="Logo do facebook">
+        </a>
+        <a href="https://www.instagram.com/" target="blank" class="p-3">
+          <img class="tm-social " src="assets/img/instagram.png" alt="Logo do instagram">
+        </a>
+        <a href="https://www.linkedin.com" target="blank" class="p-3">
+          <img class="tm-social " src="assets/img/linkedin.png" alt="Logo do linkedin">
+        </a>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-center">
+          Todos os direitos reservados: Alex Avelino &copy;
+        </p>
+      </div>
+    </div>
+
+
+  </footer>
+  <!-- /Rodapé -->
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
